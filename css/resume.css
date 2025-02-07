@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 1vw;
+    background-color: #246A73;
+    color: antiquewhite;
+}
+
+nav{
+    width: 30%
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #160F29;
+    font-size: calc(2px + 2vw);
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li{
+    font-size: calc(3px + 3vw);
+    width: 90%;
+    background-color:#368F8B;
+    padding: 2vh 0;
+    margin: 5vh auto;
+}
+
+
+nav a{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    background-color: #F3DFC1;
+}
+
+
+main p{
+    margin: 0 1vw;
+    font-size: calc(2px + 2vw);
+}
+
+footer{
+    background-color: #246A73;
+    color: antiquewhite;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: antiquewhite;
+    align-content: center;
+}
+
+#profile-pic{
+    width: 45%;
+    margin: 1vh 1vw;
+    padding: 2vh 0;
+}
+
+#profile-picture{
+    width: 100%;
+}
+
+.certification-pic {
+    width: 60%;
+    margin: 1vh 1vw;
+    padding: 2vh 0;
+}
+
+caption{
+    font-size: calc(8px + 2vw);
+}
+
+#certifications{
+    margin: 5vh 1vw;
+}
+
+#home-text{
+    margin: 1vh 1vw;
+    width: 55%;
+}
+
+#home-text h2,
+#college h2{
+    font-size: calc(16px + 2vw);
+    text-align: center;
+}
+
+#college h3{
+    font-size: calc(8px + 2vw);
+    text-align: center;
+}
+
+#home-text p{
+    margin: 2vh 1vw;
+    font-size: calc(2px + 2vw);
+}
+
+#education{
+    padding: 5vh 1vw;
+    flex-direction: column;
+}
+
+#excerpt{
+    padding: 5vh 1vw;
+}
+
+#course-list h3{
+    font-size: calc(6px + 1.5vw);
+}
+
+#course-list li{
+    font-size: calc(2px + 1.5vw);
+    padding: 2vh 0;
+}
+
+table, th, td{
+    border: 3px solid #246A73;
+    font-size: calc(2px + 1.5vw);
+}
+
+#skills{
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skill-list{
+    display: flex;
+    flex-direction: row;
+}
+
+#skills h2{
+    font-size: calc(16px + 2vw);
+    text-align: center;
+}
+
+#skills li{
+    font-size: calc(4px + 1.5vw);
+    padding: 1.5vh 0;
+}
+
+#skills h4{
+    font-size: calc(6px + 1.5vw);
+    text-align: center;
+    padding: 4vh 2vw;
+}
+
+#skills div{
+    padding: 5vh 5vw;
+}
+
+#first-number, #second-number{
+    font-size: calc(8px + 1.5vw);
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 5vw;
+    align-items: center;
+    padding: 1vh 5vw;
+}
+
+#project-main{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: #F3DFC1;
+}
+
+#buttons{
+    margin: 1vh auto;
+}
+
+#buttons button{
+    font-size: calc(6px + 1.5vw);
+    padding: 2vh 2vw;
+    background-color: antiquewhite;
+}
+
+#result{
+    margin: 5vh auto;
+    font-size: calc(10px + 2vw);
+}
+
+
+
+@media screen and (max-width:750px) {
+    header{
+        align-items: center;
+    }
+
+    #container{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        padding-left: 0;
+    }
+
+    nav li{
+        font-size: calc(2px + 1.5vw);
+        padding: 1% .5%;
+        margin: 1% .5%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+
+    main p{
+        margin: 2% 2%;
+        font-size: calc(2px + 3vw)
+    }
+
+    #profile-picture{
+        max-width: 100%
+    }
+
+    #main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #home-text{
+        align-self: center;
+        width: 100%;
+        margin: 1vh 4vw;
+        padding: 5vh 5vw;
+    }
+
+    #profile-pic{
+        margin: 1vh auto;
+    }
+
+    #course-list{
+        align-self: center;
+    }
+
+    table{
+        height: 100%;
+    }
+
+    table li{
+        padding: 4% 2%;
+    }
+
+}

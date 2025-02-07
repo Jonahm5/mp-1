@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A website displaying Jonah Musher-Eizenman's Resume">
+  <link type="text/css" rel="stylesheet" href="css/resume.css">
+  <script src="js/app.js"></script>
+  <title>Projects</title>
+</head>
+
+<!--  Header Content -->
+<header>
+  <h1>Jonah Musher-Eizenman</h1>
+  <p>My Projects</p>
+</header>
+
+<!--  Navigation Bar  -->
+<div id="container">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="experiences.html">Work Experience</a></li>
+      <li><a href="certification.html">Certifications</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!--  Main Content  -->
+  <main id="project-main">
+    <div id="first-number">
+      <label for="first">First Number</label>
+      <input type="text" id="first">
+    </div>
+
+    <div id="second-number">
+      <label for="second">Second Number</label>
+      <input type="text" id="second">
+    </div>
+
+    <div id="buttons">
+      <button id="add" onclick="addition()">+</button>
+      <button id="subtract" onclick="subtract()">-</button>
+      <button id="multiply" onclick="multiply()">*</button>
+      <button id="divide" onclick="divide()">/</button>
+      <button id="power" onclick="power()">^</button>
+      <button id="clear" onclick="clear_it()">Clear</button>
+    </div>
+
+    <div id="result">
+      <h3 id="output"></h3>
+    </div>
+
+
+  </main>
+</div>
+
+<!--  Footer Content  -->
+<footer>
+  <p>All Rights Reserved by Jonah Musher-Eizenman <a href="">Credits</a> ©</p>
+</footer>
+
+</html>
