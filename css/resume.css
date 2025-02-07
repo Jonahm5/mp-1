@@ -25,6 +25,7 @@ nav ul{
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #160F29;
+    font-family: "Franklin Gothic Book", Tahoma, sans-serif;
     font-size: calc(2px + 2vw);
     text-align: center;
     list-style: none;
@@ -56,6 +57,7 @@ main{
 main p{
     margin: 0 1vw;
     font-size: calc(2px + 2vw);
+    font-family: Tahoma, sans-serif;
 }
 
 footer{
@@ -65,6 +67,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-family: "Times New Roman", Times, serif;
 }
 
 #container{
@@ -108,17 +111,20 @@ caption{
 #home-text h2,
 #college h2{
     font-size: calc(16px + 2vw);
+    font-family: "Franklin Gothic Book", Tahoma, sans-serif;
     text-align: center;
 }
 
 #college h3{
     font-size: calc(8px + 2vw);
+    font-family: "Franklin Gothic Book", Tahoma, sans-serif;
     text-align: center;
 }
 
 #home-text p{
     margin: 2vh 1vw;
     font-size: calc(2px + 2vw);
+    font-family: Tahoma, sans-serif;
 }
 
 #education{
@@ -132,16 +138,19 @@ caption{
 
 #course-list h3{
     font-size: calc(6px + 1.5vw);
+    font-family: "Mongolian Baiti", Tahoma, sans-serif;
 }
 
 #course-list li{
     font-size: calc(2px + 1.5vw);
     padding: 2vh 0;
+    font-family: "Mongolian Baiti", Tahoma, sans-serif;
 }
 
 table, th, td{
     border: 3px solid #246A73;
     font-size: calc(1px + 1.5vw);
+    font-family: "Mongolian Baiti", Tahoma, sans-serif;
     padding: 2vh;
 }
 
@@ -159,6 +168,7 @@ table, th, td{
 
 #skills h2{
     font-size: calc(16px + 2vw);
+    font-family: "Mongolian Baiti", Tahoma, sans-serif;
     text-align: center;
 }
 
@@ -169,6 +179,7 @@ table, th, td{
 
 #skills h4{
     font-size: calc(6px + 1.5vw);
+    font-family: "Mongolian Baiti", Tahoma, sans-serif;
     text-align: center;
     padding: 4vh 2vw;
 }
@@ -179,6 +190,7 @@ table, th, td{
 
 #first-number, #second-number{
     font-size: calc(8px + 1.5vw);
+    font-family: FangSong, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 5vh 5vw;
@@ -199,6 +211,7 @@ table, th, td{
 
 #buttons button{
     font-size: calc(6px + 1.5vw);
+    font-family: FangSong, Tahoma, sans-serif;
     padding: 2vh 2vw;
     background-color: antiquewhite;
 }
@@ -206,6 +219,7 @@ table, th, td{
 #result{
     margin: 5vh auto;
     font-size: calc(10px + 2vw);
+    font-family: FangSong, Tahoma, sans-serif;
 }
 
 
